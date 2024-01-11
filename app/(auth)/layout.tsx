@@ -1,0 +1,11 @@
+
+const Layout = ({children}:{children:React.ReactNode}) => {
+  return (
+    <div className="flex-center min-h-screen w-full bg-primaty-50 ng-dotted-pattern
+    bg-fixed bg-center">
+        {children}
+    </div>
+  )
+}
+
+export default Layout
