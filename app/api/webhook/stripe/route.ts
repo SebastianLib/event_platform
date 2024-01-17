@@ -21,6 +21,8 @@ export async function POST(request: Request) {
 
   // CREATE
   if (eventType === 'checkout.session.completed') {
+    console.log("Xd");
+    
     const { id, amount_total, metadata } = event.data.object
 
     const order = {
